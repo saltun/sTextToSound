@@ -38,7 +38,7 @@ class sTextToSound
 		if ($this->cache==true) {
 			
 			if (!file_exists("/mp3/".md5($text).".mp3")) {
-				$this->download("http://translate.google.com/translate_tts?ie=UTF-8&q={$newText}&tl=".$this->lang."&total=".strlen($text));
+				$this->download("http://translate.google.com/translate_tts?ie=UTF-8&q={$newText}&tl=".$this->lang);
 			}
 		}
 
