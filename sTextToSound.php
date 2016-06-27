@@ -20,8 +20,8 @@ class sTextToSound
 
 	public function __construct(){
 
-		// ses dosyalarının kaydedileceği dizin yok ise oluşturuldu.
-		 if (!is_dir($this->dir)) { 
+	// ses dosyalarının kaydedileceği dizin yok ise oluşturuldu.
+	 if (!is_dir($this->dir)) { 
             mkdir($this->dir, 777) or die('Dizin bulunamadığı için oluşturuldu : ' . $this->dir); 
         } 
 
@@ -45,8 +45,6 @@ class sTextToSound
 
 		$this->output="/mp3/".md5($text).".mp3";
 	}
-
-	
 
 	/*
 	* Dosya indirme fonksiyonumuz 
