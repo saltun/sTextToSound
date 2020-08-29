@@ -1,3 +1,6 @@
+# GÜNCELLEME SONRASI AKTİFLİĞİNİ YİTİRMİŞTİR 
+
+
 sTextToSound - Sınıfı
 ====================
 
